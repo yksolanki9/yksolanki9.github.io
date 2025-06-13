@@ -1,0 +1,74 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Primary gradient for the Y -->
+    <linearGradient id="primary-gradient" x1="0" y1="0" x2="32" y2="32"
+      gradientUnits="userSpaceOnUse">
+      <stop offset="0%" style="stop-color:#00DDFF;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#8B5CF6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#EC4899;stop-opacity:1" />
+    </linearGradient>
+
+    <!-- Background gradient -->
+    <linearGradient id="bg-gradient" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" style="stop-color:#0F172A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1E293B;stop-opacity:1" />
+    </linearGradient>
+
+    <!-- Glow effect -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur" />
+      <feMerge>
+        <feMergeNode in="coloredBlur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Subtle outer glow -->
+    <filter id="outer-glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur" />
+      <feMerge>
+        <feMergeNode in="coloredBlur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background with rounded corners -->
+  <rect width="32" height="32" rx="6" fill="url(#bg-gradient)" />
+
+  <!-- Subtle border -->
+  <rect x="0.5" y="0.5" width="31" height="31" rx="5.5" fill="none"
+    stroke="url(#primary-gradient)" stroke-width="0.5" opacity="0.3" />
+
+  <!-- Main Y letter - clean and bold -->
+  <g filter="url(#outer-glow)">
+    <g filter="url(#glow)">
+      <!-- Left branch of Y -->
+      <path d="M9 9 L16 18" stroke="url(#primary-gradient)" stroke-width="3"
+        stroke-linecap="round" stroke-linejoin="round" />
+
+      <!-- Right branch of Y -->
+      <path d="M23 9 L16 18" stroke="url(#primary-gradient)" stroke-width="3"
+        stroke-linecap="round" stroke-linejoin="round" />
+
+      <!-- Stem of Y -->
+      <path d="M16 18 L16 25" stroke="url(#primary-gradient)" stroke-width="3"
+        stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+  </g>
+
+  <!-- Inner highlight for depth -->
+  <g opacity="0.4">
+    <!-- Left branch highlight -->
+    <path d="M9 9 L16 18" stroke="#FFFFFF" stroke-width="1"
+      stroke-linecap="round" stroke-linejoin="round" />
+
+    <!-- Right branch highlight -->
+    <path d="M23 9 L16 18" stroke="#FFFFFF" stroke-width="1"
+      stroke-linecap="round" stroke-linejoin="round" />
+
+    <!-- Stem highlight -->
+    <path d="M16 18 L16 25" stroke="#FFFFFF" stroke-width="1"
+      stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+</svg> 
