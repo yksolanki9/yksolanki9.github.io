@@ -1,0 +1,40 @@
+# Yash Solanki
+
+> Yash Solanki is a Full Stack & AI Engineer based in Mumbai, India, with 5+ years of experience building scalable products for high-growth, Y Combinator startups. He is the first engineer at Craze (YC S22), where he now builds agentic AI and AI video-generation products.
+
+## Summary
+
+- Name: Yash Solanki
+- Role: Full Stack & AI Engineer
+- Location: Mumbai, India
+- Experience: 5+ years
+- Current focus: Agentic AI, AI video generation, LLM and generative-video tooling
+- Core stack: React, Node.js, TypeScript, Angular, PostgreSQL, MongoDB, AWS, Ionic, Capacitor
+- AI stack: LLMs, AI agents, agentic workflows, RAG, prompt engineering, video generation
+
+## Experience
+
+- Craze (YC S22) — Founding Engineer / first engineer, Sep 2023 to present. Joined as the first engineer and helped build the product from the ground up: started with an HRMS platform, moved into agentic AI, and now focused on AI video generation.
+- Fyle (acquired by Sage) — Member of Technical Staff II (Aug 2022 to Aug 2023), Member of Technical Staff I (Jan 2022 to Jul 2022), Full Stack Developer Intern (Aug 2021 to Jan 2022). Worked on Angular, Ionic, and Capacitor mobile/web products.
+- Jeevam Health (YC S20) — Backend Intern (Jun 2021 to Jul 2021). Node.js, Express, MongoDB.
+- Samsung Research Institute — SDE Intern (May 2020 to Jul 2020). Channel simulations research.
+
+## Selected Projects
+
+- Comet — a mobile journaling app (Angular, Ionic, Capacitor). https://github.com/yksolanki9/comet-ui
+- CalendarX — a meeting-scheduling web app (Express, MongoDB, Google Cloud). https://github.com/yksolanki9/calendarX
+- Google Data Studio Connector — upload Excel files to Google Data Studio (Express, MongoDB, Google Apps Script). https://github.com/yksolanki9/excel-data-studio-connector
+- Capacitor Share With Plugin — a Capacitor plugin for sharing files into Ionic apps (Java, Capacitor, TypeScript). https://github.com/yksolanki9/capacitor-share-with-plugin
+
+## Writing
+
+- Technical articles on Node.js, JavaScript internals, and APIs, published on Dev.to, Scaler Topics, and Fyle Stories.
+
+## Links
+
+- Website: https://yashsolanki.in/
+- GitHub: https://github.com/yksolanki9
+- LinkedIn: https://www.linkedin.com/in/yashsolanki
+- Twitter/X: https://twitter.com/yksolanki9
+- Dev.to: https://dev.to/yksolanki9
+- Email: yashsolanki1709@gmail.com
